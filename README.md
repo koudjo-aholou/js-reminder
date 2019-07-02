@@ -1,5 +1,5 @@
 # js-reminder
-<ul>
+<ol>
   <li>Console Folder : </li>
   <ul>
     <li>console.log(); <br/></li>
@@ -10,4 +10,4 @@
     <li>console.table(); (create an array easier to read the information) <br/></li>
   </ul>
   <li>Others...</li>
-</ul>
+</ol>
