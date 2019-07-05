@@ -60,3 +60,33 @@ console.group("Array");
 console.groupEnd("Array");
 
 // # Object Literal
+console.group("Object literal");
+
+  const person = {
+    prenom: "Tyler",
+    nom: "Durden",
+    age: 60,
+    adresse:{
+      ville:"Los Angeles"
+    },
+    passion:["savon","fitness","marla"],
+    avoirAnniv: function(){
+      return 2019- this.age; //this permet de cibler dans l'objet
+    }
+  };
+  let user;
+  user = person;
+  user = person.nom;
+  user = person['nom']; //like person.nom
+  user = person.avoirAnniv();
+
+  console.log(user, "log object");
+  const people =[
+    {name:"Marla", age:33},
+    {name: "Rupper", age:35}
+  ];
+  for(let i=0; i<people.length; i++){
+    console.log(people[i].name);
+  }
+
+console.groupEnd("Object literal");

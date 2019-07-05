@@ -27,6 +27,9 @@
     </ul>
    <li>Arrays and Object Literals</li>
     <ul>
-      <li>...<br/></li>
+      <li>Array.isArray()<br/></li>
+      <li>unshit, shift, pop, splice, reverse, sort, find...<br/></li>
+      <li>person['nom']; //like person.nom<br/></li>
+      <li>function inside object<br/></li>
     </ul>
 </ol>
