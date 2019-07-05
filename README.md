@@ -16,8 +16,13 @@
       <li>Reference Data Types Objects <br/></li>
       <li>Types conversion <br/></li>
     </ul>
-  <li>Number & Math Object</li>
+  <li>Number & Math Object & Strings</li>
     <ul>
-      <li>...  <br/></li>
+      <li>Math Object : Math.sqrt,Math.pow ...<br/></li>
+      <li>Strings : Append, Escaping, chartAt, substring() ...<br/></li>
+    </ul>
+  <li>Template literal</li>
+    <ul>
+      <li> ...<br/></li>
     </ul>
 </ol>
