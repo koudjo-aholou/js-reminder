@@ -23,6 +23,10 @@
     </ul>
   <li>Template literal</li>
     <ul>
-      <li> ...<br/></li>
+      <li> `${template}`<br/></li>
+    </ul>
+   <li>Arrays and Object Literals</li>
+    <ul>
+      <li>...<br/></li>
     </ul>
 </ol>
