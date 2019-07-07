@@ -45,12 +45,16 @@
       <li>&& (& binary)<br/></li>
       <li>||  (| binary)<br/></li>
       <li> SWITCH : pratique si bcp de else if <br/></li>
-      <ul>
-        <li>switch(new Date().getDay()){</li>
-        <li>case 0 : jourA = "Dimanche";<li>
-        <li> break;</li>
-         <li>case 1 : jourA = "Lundi etc...";<li>
-        <li> break;</li>
-      </ul>
+        <ul>
+          <li>switch(new Date().getDay()){</li>
+          <li>case 0 : jourA = "Dimanche";</li>
+          <li> break;</li>
+          <li>case 1 : jourA = "Lundi etc...";</li>
+          <li> break;</li>
+        </ul>
+      <li>Function declarations & function expressions</li>
+        <ul>
+          <li>...</li>
+        </ul>
     </ul>
 </ol>
