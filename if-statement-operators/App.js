@@ -98,3 +98,45 @@ else
 console.groupEnd("If statement Operators")
 
 //# SWITCH
+//comme if else, bien si bcp de else if
+console.group("SWITCH")
+const ciel = "bleu";
+
+switch(ciel){
+  case "bleu" :
+    console.log(`Le ciel est ${ciel}`);
+    break;
+  case "rouge" :
+    console.log(`Le ciel est ${ciel}`);
+    break;
+  default:
+    console.log("Couleur ni bleu ni rouge ????");
+  break;
+}
+ 
+let jourA;
+switch(new Date().getDay()){
+  case 0 :
+       jourA = "Dimanche";
+    break;
+  case 1 :
+       jourA = "Lundi";
+    break;
+  case 2 :
+       jourA = "Mardi";
+    break;
+  case 3 :
+       jourA = "Mercredi";
+    break;
+  case 4 :
+       jourA = "Jeudi";
+    break;
+  case 5 :
+       jourA = "Vendredi";
+    break;
+  case 6 :
+       jourA = "Samedi";
+    break;
+}
+console.log(`Nous sommes ${jourA}.`)
+console.groupEnd("SWITCH")
