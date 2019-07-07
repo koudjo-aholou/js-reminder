@@ -52,6 +52,7 @@
           <li>case 1 : jourA = "Lundi etc...";</li>
           <li> break;</li>
         </ul>
+      </ul>
       <li>Function declarations & function expressions</li>
         <ul>
           <li>...</li>
