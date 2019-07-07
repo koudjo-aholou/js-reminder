@@ -32,4 +32,16 @@
       <li>person['nom']; //like person.nom<br/></li>
       <li>function inside object<br/></li>
     </ul>
+    <li>Dates & Times</li>
+    <ul>
+      <li>New Date & setDate & getDate...<br/></li>
+    </ul>
+    <li>If statement & Comparison Operators</li>
+    <ul>
+      <li> == <br/></li>
+      <li> === (type and value) <br/></li>
+      <li>>= <= <br/></li>
+      <li>&& (& binary)<br/></li>
+      <li>||  (| binary)<br/></li>
+    </ul>
 </ol>
