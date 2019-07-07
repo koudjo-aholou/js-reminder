@@ -55,7 +55,9 @@
       </ul>
       <li>Function declarations & function expressions</li>
         <ul>
-          <li>...</li>
+          <li>Declaration function toto(){}</li>
+          <li>Expression const toto = function(){}</li>
+          <li>Function IIFE s (function...)</li>
         </ul>
     </ul>
 </ol>
