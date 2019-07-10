@@ -59,5 +59,19 @@
           <li>Expression const toto = function(){}</li>
           <li>Function IIFE s (function...)</li>
         </ul>
+      <li>General Loop</li>
+        <ul>
+          <li>For</li>
+          <li>While</li>
+          <li>Do While</li>
+          <li>For Each</li>
+          <li>Map</li>
+          <li>For In</li>
+          <li>Add Properties in Array Object with Map</li>
+        </ul>
+      <li>Window Object</li>
+        <ul>
+          <li>...</li>
+        </ul>
     </ul>
 </ol>
