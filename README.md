@@ -55,6 +55,7 @@
       </ul>
       <li>Function declarations & function expressions</li>
         <ul>
+<<<<<<< develop
           <li>Declaration function toto(){}</li>
           <li>Expression const toto = function(){}</li>
           <li>Function IIFE s (function...)</li>
@@ -72,6 +73,16 @@
       <li>Window Object</li>
         <ul>
           <li>...</li>
+=======
+          <li>Window.console.log() || console.log()</li>
+          <li>Window.alert() || alert()</li>
+          <li>prompt() (input)</li>
+          <li>confirm</li>
+          <li> Size of the screen : window.outerWidth : window.outerhHight</li>
+          <li>Scroll point : window.scrollX ; window.scrollY</li>
+          <li>Location : window.location.search</li>
+          <li>Redirect</li>
+>>>>>>> window object
         </ul>
     </ul>
 </ol>
