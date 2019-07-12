@@ -81,8 +81,11 @@
           <li> Size of the screen : window.outerWidth : window.outerhHight</li>
           <li>Scroll point : window.scrollX ; window.scrollY</li>
           <li>Location : window.location.search</li>
-          <li>Redirect</li>
->>>>>>> window object
+          <li>Navigator : window.navigator.language</li>
+          <li>Redirect : window.location.href = "https://www.google.fr";</li>
+          <li>Reload : window.location.reload()</li>
+          <li>History object : window.history.length / go / back / forward</li>
         </ul>
+         <li>Scope</li>
     </ul>
 </ol>
