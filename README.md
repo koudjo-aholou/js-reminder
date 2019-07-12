@@ -55,7 +55,6 @@
       </ul>
       <li>Function declarations & function expressions</li>
         <ul>
-<<<<<<< develop
           <li>Declaration function toto(){}</li>
           <li>Expression const toto = function(){}</li>
           <li>Function IIFE s (function...)</li>
@@ -85,5 +84,9 @@
           <li>History object : window.history.length / go / back / forward</li>
         </ul>
          <li>Scope</li>
+         <ul>
+          <li>Global Scope / Function Scope / If/For Scope</li>
+          <li>var / let / const effect</li>
+         </ul>
     </ul>
 </ol>
