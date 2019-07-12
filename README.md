@@ -72,8 +72,6 @@
         </ul>
       <li>Window Object</li>
         <ul>
-          <li>...</li>
-=======
           <li>Window.console.log() || console.log()</li>
           <li>Window.alert() || alert()</li>
           <li>prompt() (input)</li>
