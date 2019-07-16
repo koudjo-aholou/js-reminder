@@ -102,11 +102,16 @@
             </ul>
             <li>DOM Selectors For Single Elements</li>
                <ul>
+                <li>document.getElementBydId()</li>
+                <li>document.querySelector()</li>
+                <li>document.querySelector('li:nth-child(3)')</li>
+              </ul>
+            <li>DOM Selectors For Multiple Elements</li>
+               <ul>
                 <li>...</li>
                 <li>...</li>
                 <li>...</li>
               </ul>
-            <li>DOM Selectors For Multiple Elements</li>
           </ul>
     </ul>
 </ol>
