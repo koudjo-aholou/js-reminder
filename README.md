@@ -115,9 +115,13 @@
               </ul>
             <li>Traversing The DOM</li>
               <ul>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
+                <li>document.querySelector('ul.collection').childNodes</li>
+                <li>document.querySelector('ul.collection').children</li>
+                <li>document.querySelector('ul.collection').firstChild /lastChild</li>
+                <li>document.querySelector('ul.collection').parentNodes</li>
+                <li>document.querySelector('ul.collection').parentElement</li>
+                <li>nextSibling / previousSibling</li>
+                <li>xxXXXXX.nextElementSibling.nextElementSibling.previousElementSibling;</li>
               </ul>
           </ul>
     </ul>
