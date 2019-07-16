@@ -88,5 +88,25 @@
           <li>Global Scope / Function Scope / If/For Scope</li>
           <li>var / let / const effect</li>
          </ul>
+         <li>DOM Manipulation & Events</li>
+          <ul>
+           <li> Examining the Document Object Model : </li>
+            <ul>
+              <li>Tree of nodes elements</li>
+              <li>Js can read / write / manipulate the DOM</li>
+              <li>Object Oriented Representation</li>
+              <li>document.all</li>
+              <li>document.title; document.body; document.domain....</li>
+              <li>document.scripts[1].getAttribute('src');</li>
+              <li>Array.from(scripts);</li>
+            </ul>
+            <li>DOM Selectors For Single Elements</li>
+               <ul>
+                <li>...</li>
+                <li>...</li>
+                <li>...</li>
+              </ul>
+            <li>DOM Selectors For Multiple Elements</li>
+          </ul>
     </ul>
 </ol>
