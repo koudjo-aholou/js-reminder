@@ -108,6 +108,13 @@
               </ul>
             <li>DOM Selectors For Multiple Elements</li>
                <ul>
+                <li>document.getElementsByClassName();</li>
+                <li>document.querySelector('ul').getElementsByClassName('collection-item');</li>
+                <li>document.getElementsByTagName('li');</li>
+                <li>document.querySelectorAll()</li>
+              </ul>
+            <li>Traversing The DOM</li>
+              <ul>
                 <li>...</li>
                 <li>...</li>
                 <li>...</li>
