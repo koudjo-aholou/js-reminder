@@ -182,11 +182,13 @@
                    </ul>
                   <li>Event Bubble && Delegation</li>
                     <ul>
-                      <li>...</li>
-                      <li>...</li>
-                      <li>...</li>
-                      <li>...</li>
-                      <li>...</li>
+                      <li>Delegation : (plus efficace mais besoin de condition)</li>
+                      <li>document.body.addEventListener('click', delItem);</li>
+                      <li>e.target.parentElement.classList.contains('delete-item')</li>
+                      <li>e.target.parentElement.parentElement.remove()</li>
+                    </ul>
+                  <li>Local Session Storage</li>
+                    <ul>
                       <li>...</li>
                       <li>...</li>
                       <li>...</li>
