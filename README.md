@@ -123,6 +123,33 @@
                 <li>nextSibling / previousSibling</li>
                 <li>xxXXXXX.nextElementSibling.nextElementSibling.previousElementSibling;</li>
               </ul>
+            <li>Create element</li>
+              <ul>
+                <li>document.createElement('li')</li> 
+                <li>document.createElement('li').className</li> 
+                <li>document.createElement('li').id</li> 
+                <li>li.appendChild(document.createTextNode("Hello World"))</li>
+                <li>document.querySelector('ul.collection').appendChild(li)</li>
+              </ul>
+              <li>Replace</li>
+                <ul>
+                  <li>get the oldHeading && create the newHeading</li>
+                  <li>get the parent = cardAction</li>
+                  <li>cardAction.replaceChild(newHeading, oldHeading);</li>
+                </ul>
+              <li>Remove Classes</li>
+                <ul>
+                  <li>.classList.add('test')</li>
+                   <li>.classList.remove('test')</li>
+                </ul>
+              <li>Remove Attributes</li>
+                <ul>
+                  <li>.getAttribute('href');</li>
+                   <li>.setAttribute("href", "https://www.snapchat.com");</li>
+                   <li>.setAttribute("title", "J'ai maintenant un Titre!")</li>
+                   <li>.hasAttribute("title");</li>
+                   <li>.removeAttribute("href");</li>
+                </ul>
           </ul>
     </ul>
 </ol>
