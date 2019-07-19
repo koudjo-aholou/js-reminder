@@ -55,7 +55,148 @@
       </ul>
       <li>Function declarations & function expressions</li>
         <ul>
-          <li>...</li>
+          <li>Declaration function toto(){}</li>
+          <li>Expression const toto = function(){}</li>
+          <li>Function IIFE s (function...)</li>
         </ul>
+      <li>General Loop</li>
+        <ul>
+          <li>For</li>
+          <li>While</li>
+          <li>Do While</li>
+          <li>For Each</li>
+          <li>Map</li>
+          <li>For In</li>
+          <li>Add Properties in Array Object with Map</li>
+        </ul>
+      <li>Window Object</li>
+        <ul>
+          <li>Window.console.log() || console.log()</li>
+          <li>Window.alert() || alert()</li>
+          <li>prompt() (input)</li>
+          <li>confirm</li>
+          <li> Size of the screen : window.outerWidth : window.outerhHight</li>
+          <li>Scroll point : window.scrollX ; window.scrollY</li>
+          <li>Location : window.location.search</li>
+          <li>Navigator : window.navigator.language</li>
+          <li>Redirect : window.location.href = "https://www.google.fr";</li>
+          <li>Reload : window.location.reload()</li>
+          <li>History object : window.history.length / go / back / forward</li>
+        </ul>
+         <li>Scope</li>
+         <ul>
+          <li>Global Scope / Function Scope / If/For Scope</li>
+          <li>var / let / const effect</li>
+         </ul>
+         <li>DOM Manipulation & Events</li>
+          <ul>
+           <li> Examining the Document Object Model : </li>
+            <ul>
+              <li>Tree of nodes elements</li>
+              <li>Js can read / write / manipulate the DOM</li>
+              <li>Object Oriented Representation</li>
+              <li>document.all</li>
+              <li>document.title; document.body; document.domain....</li>
+              <li>document.scripts[1].getAttribute('src');</li>
+              <li>Array.from(scripts);</li>
+            </ul>
+            <li>DOM Selectors For Single Elements</li>
+               <ul>
+                <li>document.getElementBydId()</li>
+                <li>document.querySelector()</li>
+                <li>document.querySelector('li:nth-child(3)')</li>
+              </ul>
+            <li>DOM Selectors For Multiple Elements</li>
+               <ul>
+                <li>document.getElementsByClassName();</li>
+                <li>document.querySelector('ul').getElementsByClassName('collection-item');</li>
+                <li>document.getElementsByTagName('li');</li>
+                <li>document.querySelectorAll()</li>
+              </ul>
+            <li>Traversing The DOM</li>
+              <ul>
+                <li>document.querySelector('ul.collection').childNodes</li>
+                <li>document.querySelector('ul.collection').children</li>
+                <li>document.querySelector('ul.collection').firstChild /lastChild</li>
+                <li>document.querySelector('ul.collection').parentNodes</li>
+                <li>document.querySelector('ul.collection').parentElement</li>
+                <li>nextSibling / previousSibling</li>
+                <li>xxXXXXX.nextElementSibling.nextElementSibling.previousElementSibling;</li>
+              </ul>
+            <li>Create element</li>
+              <ul>
+                <li>document.createElement('li')</li> 
+                <li>document.createElement('li').className</li> 
+                <li>document.createElement('li').id</li> 
+                <li>li.appendChild(document.createTextNode("Hello World"))</li>
+                <li>document.querySelector('ul.collection').appendChild(li)</li>
+              </ul>
+              <li>Replace</li>
+                <ul>
+                  <li>get the oldHeading && create the newHeading</li>
+                  <li>get the parent = cardAction</li>
+                  <li>cardAction.replaceChild(newHeading, oldHeading);</li>
+                </ul>
+              <li>Remove Classes</li>
+                <ul>
+                  <li>.classList.add('test')</li>
+                   <li>.classList.remove('test')</li>
+                </ul>
+              <li>Remove Attributes</li>
+                <ul>
+                  <li>.getAttribute('href');</li>
+                   <li>.setAttribute("href", "https://www.snapchat.com");</li>
+                   <li>.setAttribute("title", "J'ai maintenant un Titre!")</li>
+                   <li>.hasAttribute("title");</li>
+                   <li>.removeAttribute("href");</li>
+                </ul>
+                <li>Event listeners</li>
+                  <ul>
+                    <li>.addEventListener('click', onClick)</li>
+                    <li>e.target;</li>
+                  </ul>
+                 <li>Mouse Event</li>
+                  <ul>
+                    <li>.addEventListener("click",runEvent)</li>
+                    <li>.addEventListener("dblclick",runEvent)</li>
+                    <li>.addEventListener("mousedown",runEvent)</li>
+                    <li>.addEventListener("mouseup",runEvent)</li>
+                    <li>.addEventListener("mouseenter",runEvent)</li>
+                    <li>.addEventListener("mouseleave",runEvent)</li>
+                    <li>.addEventListener("mouseover",runEvent)</li>
+                    <li>.addEventListener("mouseout",runEvent)</li>
+                    <li>.addEventListener("mousemove",runEvent)</li>
+                  </ul>
+                   <li>Keyboard & Input Events</li>
+                   <ul>
+                    <li>.addEventListener('submit',runEvent)</li>
+                    <li>.addEventListener('keyup',runEvent);</li>
+                    <li>.addEventListener('keypress',runEvent);</li>
+                    <li>.addEventListener('focus', runEvent);</li>
+                    <li>.addEventListener('blur', runEvent);</li>
+                    <li>.addEventListener('cut', runEvent);</li>
+                    <li>.addEventListener('paste', runEvent);</li>
+                    <li>.addEventListener('copy', runEvent);</li>
+                    <li>.addEventListener('input', runEvent);</li>
+                    <li>.addEventListener('change',runEvent);</li>
+                   </ul>
+                  <li>Event Bubble && Delegation</li>
+                    <ul>
+                      <li>Delegation : (plus efficace mais besoin de condition)</li>
+                      <li>document.body.addEventListener('click', delItem);</li>
+                      <li>e.target.parentElement.classList.contains('delete-item')</li>
+                      <li>e.target.parentElement.parentElement.remove()</li>
+                    </ul>
+                  <li>Local Session Storage</li>
+                    <ul>
+                      <li>localStorage.setItem('name','Tyler');</li>
+                      <li>sessionStorage.setItem('name','Rupert');</li>
+                      <li>localStorage.removeItem('name');</li>
+                      <li>localStorage.getItem('name');</li>
+                      <li>localStorage.clear();</li>
+                      <li>convertir en string: JSON.stringify(tasks)</li>
+                      <li>convertir en tableau/objet : JSON.parse(localStorage.getItem('tasks'));</li>
+                    </ul>
+          </ul>
     </ul>
 </ol>
