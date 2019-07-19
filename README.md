@@ -189,9 +189,13 @@
                     </ul>
                   <li>Local Session Storage</li>
                     <ul>
-                      <li>...</li>
-                      <li>...</li>
-                      <li>...</li>
+                      <li>localStorage.setItem('name','Tyler');</li>
+                      <li>sessionStorage.setItem('name','Rupert');</li>
+                      <li>localStorage.removeItem('name');</li>
+                      <li>localStorage.getItem('name');</li>
+                      <li>localStorage.clear();</li>
+                      <li>convertir en string: JSON.stringify(tasks)</li>
+                      <li>convertir en tableau/objet : JSON.parse(localStorage.getItem('tasks'));</li>
                     </ul>
           </ul>
     </ul>
