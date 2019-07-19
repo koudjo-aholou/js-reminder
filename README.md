@@ -157,9 +157,23 @@
                   </ul>
                  <li>Mouse Event</li>
                   <ul>
-                    <li>...</li>
-                    <li>...</li>
+                    <li>.addEventListener("click",runEvent)</li>
+                    <li>.addEventListener("dblclick",runEvent)</li>
+                    <li>.addEventListener("mousedown",runEvent)</li>
+                    <li>.addEventListener("mouseup",runEvent)</li>
+                    <li>.addEventListener("mouseenter",runEvent)</li>
+                    <li>.addEventListener("mouseleave",runEvent)</li>
+                    <li>.addEventListener("mouseover",runEvent)</li>
+                    <li>.addEventListener("mouseout",runEvent)</li>
+                    <li>.addEventListener("mousemove",runEvent)</li>
                   </ul>
+                   <li>Keyboard & Input Events</li>
+                   <ul>
+                    <li>.addEventListener('submit',runEvent)</li>
+                    <li>...</li>
+                    <li>...</li>
+                    <li>...</li>
+                   </ul>
           </ul>
     </ul>
 </ol>
