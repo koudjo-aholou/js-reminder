@@ -150,6 +150,12 @@
                    <li>.hasAttribute("title");</li>
                    <li>.removeAttribute("href");</li>
                 </ul>
+                <li>Event listeners</li>
+                <ul>
+                  <li>...</li>
+                  <li>...</li>
+                  <li>...</li>
+                </ul>
           </ul>
     </ul>
 </ol>
