@@ -170,10 +170,27 @@
                    <li>Keyboard & Input Events</li>
                    <ul>
                     <li>.addEventListener('submit',runEvent)</li>
-                    <li>...</li>
-                    <li>...</li>
-                    <li>...</li>
+                    <li>.addEventListener('keyup',runEvent);</li>
+                    <li>.addEventListener('keypress',runEvent);</li>
+                    <li>.addEventListener('focus', runEvent);</li>
+                    <li>.addEventListener('blur', runEvent);</li>
+                    <li>.addEventListener('cut', runEvent);</li>
+                    <li>.addEventListener('paste', runEvent);</li>
+                    <li>.addEventListener('copy', runEvent);</li>
+                    <li>.addEventListener('input', runEvent);</li>
+                    <li>.addEventListener('change',runEvent);</li>
                    </ul>
+                  <li>Event Bubble && Delegation</li>
+                    <ul>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
+                      <li>...</li>
+                    </ul>
           </ul>
     </ul>
 </ol>
