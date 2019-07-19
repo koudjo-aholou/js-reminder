@@ -151,11 +151,15 @@
                    <li>.removeAttribute("href");</li>
                 </ul>
                 <li>Event listeners</li>
-                <ul>
-                  <li>...</li>
-                  <li>...</li>
-                  <li>...</li>
-                </ul>
+                  <ul>
+                    <li>.addEventListener('click', onClick)</li>
+                    <li>e.target;</li>
+                  </ul>
+                 <li>Mouse Event</li>
+                  <ul>
+                    <li>...</li>
+                    <li>...</li>
+                  </ul>
           </ul>
     </ul>
 </ol>
