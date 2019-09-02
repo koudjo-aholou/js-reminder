@@ -47,3 +47,46 @@ console.group("Object.Prototype");
   console.log(marla.hasOwnProperty("firstname"));
   console.log(marla.hasOwnProperty("hobbies"));
 console.groupEnd("Object.Prototype");
+/////////////////////////////////////////////////////////
+console.group("prototype inheritance")
+
+  //Personne constructor
+  function Personne(prenom,nom,age){
+    this.prenom = prenom;
+    this.nom = nom;
+    this.age = age
+  };
+
+  Personne.prototype.bienvenue = function(){
+    return `Bonjour ${this.prenom} ${this.nom}`;
+  }
+
+  const guts = new Personne('Guts','Berserk');
+  console.log(guts.bienvenue());
+
+  //Client constructor
+  function Client(prenom,nom,numero,membre){
+    Personne.call(this,prenom,nom);
+    this.numero = numero;
+    this.membre = membre;
+  }
+  //console.log(Client.prototype,'l');
+
+  //Heritage prototype bienvenue methode
+  Client.prototype = Object.create(Personne.prototype)
+  //console.log(Client.prototype,'lo');
+
+  //Client prototype
+  Client.prototype.constructor = Client;
+
+  //client bienvenue
+  Client.prototype.deconnexion = function(){
+    return `${this.prenom}, vous nous quittez déjà...  à bientot ! `;
+  }
+  //Creation client
+
+  const client1 = new Client("Casca","Griff","08-35-65-65-65","lieutenant");
+  console.log(client1);
+  console.log(client1.bienvenue()," ou ", client1.deconnexion());
+
+console.groupEnd("prototype inheritance");
